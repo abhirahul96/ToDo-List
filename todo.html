@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
+    <link rel="stylesheet" href="todo.css">
 </head>
-<style>
-    .strike{
-        text-decoration: line-through;
-    }
-</style>
 <body>
-    <div>
-        <ol id="ordlist"></ol>
+    <div class="header-content">
+        <h1>Todo
+            <span>List</span>
+        </h1>
     </div>
+    <div class="maindiv">
+        <ol id="ordlist"></ol>
     <input type="text" class="newtodo">
     <button id="Add">Add to list</button>
+</div>
+
     <script src="todo.js"></script>
 </body>
 </html>

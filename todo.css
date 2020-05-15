@@ -1,0 +1,14 @@
+body{
+    background-image: url("https://cdn.dribbble.com/users/153131/screenshots/11339617/media/a4678d5795c08c0766f0bed4c09ef2d3.png");
+    background-position-x: 50%;
+}
+.strike{
+    text-decoration: line-through;
+}
+.maindiv{
+    padding-left: 40%;
+    
+}
+.header-content{
+    padding-left: 45%;
+}
